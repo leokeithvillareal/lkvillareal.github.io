@@ -1,0 +1,279 @@
+/* -- NAVBAR CSS -- */
+
+#navbar, #menubar{
+    width: 100%;
+    position: fixed;
+}
+#navbar{
+    min-height: 50px;
+    max-height: 500px;
+    top:0;
+    background: #009E6A;
+    z-index: 1024;
+}
+#navbar img{
+    height: 40px;
+}
+#navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+#navbar .text-right{
+    margin-top: 14px;
+}
+#menubar{
+    background: #fff;
+    box-shadow: 1px 1px 5px #d7d7d7;
+    top: 0px;
+    /* z-index: 1022; */
+}
+.pof-btn{
+    padding: 10px;
+}
+.pof-btn:hover{
+    background: #007c53;
+    border-radius: 5px;
+}
+#menu-toggler{
+    width: 230px;
+    padding: 10px 0 10px 25px;
+    font-size: 18px;
+}
+#sidebar-menu{
+    width: 230px;
+    padding: 8px 18px;
+    border-right: 1px solid #ffffff;
+    position: absolute;
+    transition: .3s all ease;
+}
+.fa-bars{
+    cursor: pointer;
+    margin-top:6px;
+}
+#nav-name{
+    width: 260px;
+    padding: 0px 10px;
+    border-right: 1px solid #ffffff;
+    position: absolute;
+    right: 0;
+    border-left: 1px solid #ffffff;
+}
+#nav-name img{
+    margin-top: -4px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 3px #d7d7d7;
+    margin-right: 5px;
+    transition: .3s all ease;
+}
+#name{
+    margin-top: 2px;
+    position: absolute;
+    font-size: 12px;
+    transition: 1s all ease;
+    color: gray;
+}
+#email{
+    position: absolute;
+    font-size: 8px;
+    color: #888888;
+    transition: 1s all ease;
+}
+#nav-options{
+    padding: 0 10px;
+    margin-left: 230px;
+    margin-right: 230px;
+    position: relative;
+    padding-right: 30px;
+    transition: .3s all ease;
+}
+#nav-options input{
+    float: left;
+}
+#nav-links{
+    float: right;
+    margin-right: 5px;
+    text-decoration: none;
+    padding: 8px;
+}
+#nav-links a{
+    color: #e8175d;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+#nav-links a:hover{
+    color: #e8175d;
+    background: #d396a1;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#search-btn{
+    position: absolute;
+    margin-top: 6px;
+    left: 15px;
+    color: #4db2ff;
+}
+#nav-search{
+    width: 28%;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+}
+.row .col-6 ul{
+    width: 90%;
+    display: flex;
+    list-style: none;
+    padding: 0 55px;
+}
+.row .col-6 ul li{
+    padding: 0 5px;
+}
+
+#nav-home{
+    color: #439add;
+}
+#nav-toolbox{
+    color: #ffc916;
+}
+#nav-mytools{
+    color: #ee2929;
+}
+#nav-notification{
+    background: #4374dd;
+    color: #fff;
+    padding: 5px;
+}
+#main-name{
+    font-size: 14px;
+}
+#navbarToggler{
+    display: none;
+}
+
+@media screen and (max-width:1023px){
+    #nav-links span{
+        display: none !important;
+        transition: .3s all ease;
+    }
+    #nav-links a{
+        padding: 5px !important;
+    }
+}
+@media screen and (max-width:768px){
+    #nav-options{
+        margin-left: 50px;
+        transition: .3s all ease;
+    }
+    #sidebar-menu{
+        width: 50px;
+        padding: 0px 18px;
+        border-right: 1px solid #d7d7d7;
+        position: absolute;
+        transition: .3s all ease;
+    }
+    #nav-search {
+        width: 50%;
+    }
+    .pof-btn{
+        font-size: 12px;
+        transition: .3s all ease;
+    }
+    #sidebar-menu span{
+        display: none !important;
+    }
+    #nav-name #email{
+        display: none !important;
+    }
+    #nav-name #name{
+        display: none !important;
+    }
+    #nav-options{
+        margin-right: 50px;
+        transition: .3s all ease;
+        padding-right: 0 !important
+    }
+    #nav-name img{
+        display: none !important;
+    }
+    #nav-name{
+        width: 50px;
+        transition: .3s all ease;
+    }
+    #navbarToggler{
+        display: inline-block !important;
+    }
+}
+@media screen and (max-width:768px){
+    #nav-name{
+        display: none;
+    }
+    #nav-options{
+        margin-right: 0;
+    }
+    #navbar .text-right {
+        margin-top: 12px;
+    }
+}
+@media screen and (max-width:376px){
+    #main-name{
+        display: none !important;
+    }
+}
+#main-name{
+    font-size: 14px;
+}
+#navbarToggler{
+    display: none;
+}
+.mt-icon{
+    margin-top: -8px;
+}
+.custom-search {
+        margin-top: 6px;
+        height: 25px;
+        width: auto;
+}
+.sidebar-content{
+    background-color: #ffffff;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    top: 80px;
+
+}
+.sidebar-link{
+    display: flex;
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    height: 30px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.sidebar-link:hover{
+    background: #ffffff;
+    border-left: 4px solid #e8175d;
+    cursor: pointer;
+}
+.sidebar-label{
+    margin-left: 16px;
+}
+.dropdown-link{
+    background: #fff;
+    height: 30px;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+}
+.dropdown-link:hover{
+    border-left: 4px solid #e8175d;
+    cursor: pointer;
+}
