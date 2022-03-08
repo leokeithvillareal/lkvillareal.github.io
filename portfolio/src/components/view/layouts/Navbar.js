@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Grid, IconButton, makeStyles, Paper, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Grid, IconButton, makeStyles, Toolbar, Typography } from '@material-ui/core';
 import React from 'react';
 import {ReactComponent  as MyLogo} from "../../images/icon/myLogo.svg";
 
@@ -27,7 +27,7 @@ const Navbar = () => {
   const classes = useStyles();
   return (
     <>
-      <AppBar position="static" style={{ background: '#fff' }}>
+      <AppBar position="fixed" style={{ background: '#fff' }}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MyLogo width={26} />

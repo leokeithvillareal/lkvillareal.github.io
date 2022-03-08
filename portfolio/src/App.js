@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import { Box, Grid } from '@material-ui/core';
 
 import Navbar from './components/view/layouts/Navbar'
@@ -19,7 +18,6 @@ function App() {
                 </Grid>
               </Grid>
           </Box>
-         
       </Router>
     </>
   );
