@@ -8,7 +8,6 @@ import Home from './components/view/Home'
 
 function App() {
   return (
-    <>
       <Router>
           <Box className="App">
               <Navbar />
@@ -19,7 +18,6 @@ function App() {
               </Grid>
           </Box>
       </Router>
-    </>
   );
 }
 
