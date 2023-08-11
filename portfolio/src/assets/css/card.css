@@ -1,0 +1,54 @@
+.container {
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+  grid-template-rows: minmax(100px, auto);
+  margin: 40px;
+  grid-auto-flow: dense;
+}
+
+.container .box {
+  background:#b15d79;
+  padding: 20px;
+  display: grid;
+  font-size: 20px;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.container .box:hover {
+  background:#e91e63;
+}
+.image {
+  width:100%;
+  height: 250px;
+}
+.container .box:nth-child(1) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.container .portfolio-box:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.container .portfolio-box:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.container .portfolio-box:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 3;
+}
+
+.container .box:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.container .box:nth-child(3) {
+  grid-column: span 3;
+  grid-row: span 2;
+}

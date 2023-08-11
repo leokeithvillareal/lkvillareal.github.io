@@ -1,24 +1,17 @@
-import './App.css';
-import { BrowserRouter as Router} from 'react-router-dom';
-import { Box, Grid } from '@material-ui/core';
-
-import Navbar from './components/view/layouts/Navbar'
-
-import Home from './components/view/Home'
+import { Experience } from './components/experience/Index';
+import { Home } from './components/home/Index';
+import { About } from './components/about/Index';
+import { Portfolio } from './components/portfolio/Index';
 
 function App() {
-  return (
-      <Router>
-          <Box className="App">
-              <Navbar />
-              <Grid container spacing={1}>
-                <Grid item xs={12}>
-                  <Home/>
-                </Grid>
-              </Grid>
-          </Box>
-      </Router>
-  );
+    return (
+        <>
+            <Home />
+            <About />
+            <Portfolio />
+            <Experience />
+        </>
+    );
 }
 
 export default App;
