@@ -4,6 +4,7 @@ import { About } from './components/about/Index';
 import { Portfolio } from './components/portfolio/Index';
 
 function App() {
+    console.log("portfolio v2.1 ")
     return (
         <>
             <Home />
