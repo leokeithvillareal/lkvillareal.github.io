@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/lkvillareal.github.io/static/css/main.09abe051.chunk.css",
-    "main.js": "/lkvillareal.github.io/static/js/main.d7e5f2f5.chunk.js",
-    "main.js.map": "/lkvillareal.github.io/static/js/main.d7e5f2f5.chunk.js.map",
-    "runtime-main.js": "/lkvillareal.github.io/static/js/runtime-main.4cf9a3b3.js",
-    "runtime-main.js.map": "/lkvillareal.github.io/static/js/runtime-main.4cf9a3b3.js.map",
-    "static/js/2.82517086.chunk.js": "/lkvillareal.github.io/static/js/2.82517086.chunk.js",
-    "static/js/2.82517086.chunk.js.map": "/lkvillareal.github.io/static/js/2.82517086.chunk.js.map",
-    "static/js/3.60b7a005.chunk.js": "/lkvillareal.github.io/static/js/3.60b7a005.chunk.js",
-    "static/js/3.60b7a005.chunk.js.map": "/lkvillareal.github.io/static/js/3.60b7a005.chunk.js.map",
+    "main.css": "/lkvillareal.github.io/static/css/main.6ac28e20.css",
+    "main.js": "/lkvillareal.github.io/static/js/main.d641e3a9.js",
+    "static/media/LK-Villareal-Resume.pdf": "/lkvillareal.github.io/static/media/LK-Villareal-Resume.48d7246d80144a7bd31d.pdf",
+    "static/media/lk.png": "/lkvillareal.github.io/static/media/lk.6c1908ef896f7348f270.png",
+    "static/media/pic2.png": "/lkvillareal.github.io/static/media/pic2.1c9b591afd1f6ffc8c47.png",
+    "static/media/acad.png": "/lkvillareal.github.io/static/media/acad.12d031d422d161d63484.png",
+    "static/media/bookretail.png": "/lkvillareal.github.io/static/media/bookretail.d08f6ccebd50ceee9fcf.png",
+    "static/media/biz.png": "/lkvillareal.github.io/static/media/biz.9cf4c9a1de8e2097988a.png",
+    "static/media/admin.png": "/lkvillareal.github.io/static/media/admin.8b966c21306592615b22.png",
+    "static/media/FDE.png": "/lkvillareal.github.io/static/media/FDE.f79bc70f9b6e2b4bef7c.png",
     "index.html": "/lkvillareal.github.io/index.html",
-    "static/css/main.09abe051.chunk.css.map": "/lkvillareal.github.io/static/css/main.09abe051.chunk.css.map",
-    "static/js/2.82517086.chunk.js.LICENSE.txt": "/lkvillareal.github.io/static/js/2.82517086.chunk.js.LICENSE.txt",
-    "static/media/me.06c727a7.png": "/lkvillareal.github.io/static/media/me.06c727a7.png",
-    "static/media/myLogo.555cafcc.svg": "/lkvillareal.github.io/static/media/myLogo.555cafcc.svg"
+    "main.6ac28e20.css.map": "/lkvillareal.github.io/static/css/main.6ac28e20.css.map",
+    "main.d641e3a9.js.map": "/lkvillareal.github.io/static/js/main.d641e3a9.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.4cf9a3b3.js",
-    "static/js/2.82517086.chunk.js",
-    "static/css/main.09abe051.chunk.css",
-    "static/js/main.d7e5f2f5.chunk.js"
+    "static/css/main.6ac28e20.css",
+    "static/js/main.d641e3a9.js"
   ]
 }
